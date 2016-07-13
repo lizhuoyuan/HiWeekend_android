@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/thisweek"
+        android:showAsAction="never"
+        android:title="本周末"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/near"
+        android:showAsAction="never"
+        android:title="附近"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/hot"
+        android:showAsAction="never"
+        android:title="热门"
+        android:visible="true">
+    </item>
+
+</menu>

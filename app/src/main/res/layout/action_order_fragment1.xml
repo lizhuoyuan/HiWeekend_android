@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_weight="3"
+        android:background="#ffffff"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/action_order_image1"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.3"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.64"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="预定信息" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.88"
+            android:gravity="bottom"
+            android:text="活动时间" />
+
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="201dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.10"
+            android:gravity="center|right"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.78"
+            android:gravity="bottom"
+            android:text="价格" />
+
+        <TextView
+            android:id="@+id/tvprice"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.56"
+            android:gravity="center|right"
+            android:text="TextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:text="元" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.98"
+            android:gravity="center_vertical"
+            android:text="数量" />
+
+        <ImageView
+            android:id="@+id/imgjian"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/jianh" />
+
+        <EditText
+            android:id="@+id/edcount"
+            android:layout_width="54dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="1" />
+
+        <ImageView
+            android:id="@+id/imgjia"
+            android:layout_width="30dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/jial" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="预订人" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:text="联系电话" />
+
+        <EditText
+            android:id="@+id/edtel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_edittext"
+            android:digits="1234567809"
+            android:gravity="center_horizontal"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textColor="#b0c6ce" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:text="您的姓名" />
+
+        <EditText
+            android:id="@+id/edname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="center_horizontal"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColor="#b0c6ce" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="162dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.76"
+            android:gravity="center_vertical"
+            android:text="使用积分" />
+
+        <CheckBox
+            android:id="@+id/jifen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:text="(可用积分)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="需支付" />
+
+        <TextView
+            android:id="@+id/tvpay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="参加费用减去积分/100" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center|right"
+            android:text="元" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.89"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:gravity="center|left"
+            android:text="余额:" />
+
+        <TextView
+            android:id="@+id/yue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:gravity="center|right"
+            android:text="100" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center|right"
+            android:text="元" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.88"
+        android:background="@android:color/holo_red_light"
+        android:text="提交订单"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</LinearLayout>

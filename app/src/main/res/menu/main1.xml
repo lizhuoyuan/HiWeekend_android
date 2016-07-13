@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 自定义搜索按钮视图 -->
+    <item
+        android:id="@+id/menu_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_label_search"/>
+
+    <!-- 刷新按钮图标 -->
+    <item
+        android:id="@+id/menu_zhuye"
+        android:icon="@drawable/zhuye"
+        android:showAsAction="never"
+        android:title="@string/action_label_refresh"/>
+
+    <!-- 收藏按钮图标加文字 -->
+    <item
+        android:id="@+id/menu_huodong"
+        android:icon="@drawable/huodong"
+        android:showAsAction="never"
+        android:title="@string/action_label_collected"/>
+    <item
+        android:id="@+id/menu_geren"
+        android:icon="@drawable/wo"
+        android:showAsAction="never"
+        android:title="@string/action_label_geren"/>
+
+</menu>

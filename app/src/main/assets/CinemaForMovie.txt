@@ -1,0 +1,160 @@
+﻿{
+    "reason": "success",
+    "result": [
+        {
+            "cinemaName": "苏州橙天嘉禾影城",
+            "cinemaId": "1188",
+            "address": "苏州工业园区现代大道1699号 印象城三层",
+            "latitude": "31.32262",
+            "longitude": "120.6639"
+        },
+        {
+            "cinemaName": "苏艺影城东沙湖店",
+            "cinemaId": "1189",
+            "address": "苏州市工业园区东沙湖路100号D301",
+            "latitude": "31.33942",
+            "longitude": "120.7635"
+        },
+        {
+            "cinemaName": "幸福蓝海国际影城（石路IMAX店）",
+            "cinemaId": "1190",
+            "address": "苏州市广济南路219号新苏天地9楼",
+            "latitude": "31.31583",
+            "longitude": "120.6067"
+        },
+        {
+            "cinemaName": "喜游城-大光明影院",
+            "cinemaId": "1193",
+            "address": "苏州市观前街北局9号",
+            "latitude": "31.3159",
+            "longitude": "120.6311"
+        },
+        {
+            "cinemaName": "苏艺影城艺术中心店",
+            "cinemaId": "1195",
+            "address": "苏州工业园区观枫街1号",
+            "latitude": "31.32784",
+            "longitude": "120.709"
+        },
+        {
+            "cinemaName": "苏州橙天嘉禾影城（来客茂店）",
+            "cinemaId": "1201",
+            "address": "苏州金阊区桐泾北路218号来客茂时尚生活广场4F",
+            "latitude": "31.31875",
+            "longitude": "120.5958"
+        },
+        {
+            "cinemaName": "苏州时代金球影城",
+            "cinemaId": "1202",
+            "address": "苏州市相城区阳澄湖东路1号中翔生活广场（家乐福）二楼",
+            "latitude": "31.37065",
+            "longitude": "120.6471"
+        },
+        {
+            "cinemaName": "苏州17.5影城瑞佳店",
+            "cinemaId": "1203",
+            "address": "苏州市高新区兴贤路199号",
+            "latitude": "31.37274",
+            "longitude": "120.5105"
+        },
+        {
+            "cinemaName": "苏州万达SM广场店",
+            "cinemaId": "1207",
+            "address": "苏州吴中大道1109号SM城市商业广场E幢3楼",
+            "latitude": "31.22804",
+            "longitude": "120.6053"
+        },
+        {
+            "cinemaName": "苏州乐天影城（太平店）",
+            "cinemaId": "1209",
+            "address": "苏州市相城区太平镇太平邻里中心",
+            "latitude": "31.4367",
+            "longitude": "120.7079"
+        },
+        {
+            "cinemaName": "中影国际影城·苏州圆融顶点店",
+            "cinemaId": "1213",
+            "address": "苏州市工业园区旺墩路269号圆融星座三楼",
+            "latitude": "31.32464",
+            "longitude": "120.7203"
+        },
+        {
+            "cinemaName": "苏州世茂国际影城SPC巨幕店",
+            "cinemaId": "3490",
+            "address": "苏州市宝带西路1177号1F世茂运河城二期北区",
+            "latitude": "31.26963",
+            "longitude": "120.6058"
+        },
+        {
+            "cinemaName": "苏州银兴乐天影城",
+            "cinemaId": "3491",
+            "address": "苏州苏震桃路与天鹅荡路交界口永旺梦乐城3F",
+            "latitude": "31.30514",
+            "longitude": "120.5917"
+        },
+        {
+            "cinemaName": "苏州金逸院线长江壹号",
+            "cinemaId": "3706",
+            "address": "苏州市长江路9号长江壹号广场4号楼 ",
+            "latitude": "31.26896",
+            "longitude": "120.5607"
+        },
+        {
+            "cinemaName": "中影国际影城苏州金象城店",
+            "cinemaId": "3775",
+            "address": "苏州市工业园区东环路378号1#3001",
+            "latitude": "31.29611",
+            "longitude": "120.6622"
+        },
+        {
+            "cinemaName": "苏州金逸影视中心店",
+            "cinemaId": "3881",
+            "address": "苏州市吴中区木渎镇金山南路288号苏州国际影视娱乐城1幢4楼金逸影视中心",
+            "latitude": "31.28484",
+            "longitude": "120.5246"
+        },
+        {
+            "cinemaName": "中影环球星影城",
+            "cinemaId": "66293",
+            "address": "江苏省苏州市吴中区枫津南路18号苏报南都广场3楼",
+            "latitude": "31.23754",
+            "longitude": "120.644"
+        },
+        {
+            "cinemaName": "吴江中影百川国际影城",
+            "cinemaId": "68903",
+            "address": "苏州市吴江区开平路180",
+            "latitude": "31.14508",
+            "longitude": "120.6633"
+        },
+        {
+            "cinemaName": "保利国际影城苏州万家邻里店",
+            "cinemaId": "111241",
+            "address": "江苏省苏州市相城区阳澄湖西路1299号华润万家4楼",
+            "latitude": "31.24805",
+            "longitude": "120.629"
+        },
+        {
+            "cinemaName": "湖南楚湘--昆山千灯镇千影影城",
+            "cinemaId": "111247",
+            "address": "江苏省昆山市千灯镇尚书路上郡广场3号楼二层（大润发对面）",
+            "latitude": "31.26815",
+            "longitude": "121.0192"
+        },
+        {
+            "cinemaName": "苏州华夏国际影城",
+            "cinemaId": "196908",
+            "address": "苏州市姑苏区城北路江星广场5号楼三楼",
+            "latitude": "31.34164",
+            "longitude": "120.6267"
+        },
+        {
+            "cinemaName": "中影国际影城（苏州港龙店）",
+            "cinemaId": "138067",
+            "address": "苏州高新区长江路556号港龙商业广场B栋4层",
+            "latitude": "31.31961",
+            "longitude": "120.5529"
+        }
+    ],
+    "error_code": 0
+}

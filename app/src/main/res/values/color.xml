@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="APP_Base_color">#8BBB</color>
+    <color name="Block_Color">#FFF</color>
+    <color name="Button_Color">#E22</color>
+    <color name="ActionBar_Color">#A0AA</color>
+
+</resources>

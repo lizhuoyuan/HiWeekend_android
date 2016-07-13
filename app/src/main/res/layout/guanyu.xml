@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#e8e8e8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1.37"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/tubiao" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+            android:gravity="left|center"
+            android:text="官方团队：高博开发团队007" 
+            android:layout_marginTop="10dp"
+            android:background="#fff"/>
+         <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0px"
+        android:background="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="app介绍 ：HiWeek是一款周末休闲娱乐的软件"
+            android:gravity="left|center"
+            android:layout_weight="1" 
+            android:background="#fff"/>
+       
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.46" >
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+{
+    "resultcode": "200",
+    "reason": "成功的返回",
+    "result": {
+        "movieid": "151951",
+        "rating": "8.1",
+        "genres": "动作/冒险/科幻",
+        "runtime": "128 min",
+        "language": "英语",
+        "title": "美国队长2",
+        "poster": "http://v.juhe.cn/movie/img?170059",
+        "writers": "克里斯托弗·马库斯,斯蒂芬·麦克菲利,...",
+        "film_locations": "美国",
+        "directors": "安东尼·罗素,乔·罗素",
+        "rating_count": "15975",
+        "actors": "克里斯·埃文斯 Chris Evans,斯嘉丽·约翰逊 Scarlett Johansson,塞巴斯蒂安·斯坦 Sebastian Stan,安东尼·麦凯 Anthony Mackie",
+        "plot_simple": "故事发生在《复仇者联盟》两年后，史蒂夫已定居华盛顿，努力适应现代社会的生活。然而当一起神秘袭击事件伤害到神盾局的重要人物时，美国队长必须重新出马，联合黑寡妇击退前来刺杀他的刺客，找出幕后真凶。",
+        "year": "2014",
+        "country": "美国",
+        "type": null,
+        "release_date": "20140404",
+        "also_known_as": "美国队长2：冬日战士,美国队长2：酷寒战士.....(台湾译名),美国队长：冬兵"
+    },
+    "error_code": 0
+}

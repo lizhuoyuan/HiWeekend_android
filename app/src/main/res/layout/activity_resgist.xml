@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F0F0F0"
+              android:orientation="vertical"
+              android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/UserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.85"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/new_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/user_account_icon"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/user_account_icon"
+            android:hint="用户名"
+            android:minHeight="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:background="@drawable/line"/>
+
+        <EditText
+            android:id="@+id/new_password_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/user_pwd_lock_icon"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/user_pwd_lock_icon"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:minHeight="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="#0099CC"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:background="@drawable/line"/>
+
+        <EditText
+            android:id="@+id/new_password_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/user_pwd_lock_icon"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/user_pwd_lock_icon"
+            android:hint="确认密码"
+            android:inputType="textPassword"
+            android:minHeight="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="#0099CC"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:background="@drawable/line"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            >
+
+            <!--<TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:drawableLeft="@drawable/xingbie"
+                android:gravity="center"
+                android:hint="性别              "
+                android:minHeight="40dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"/>-->
+
+            <RadioGroup
+                android:id="@+id/new_radio_group_gender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#fff"
+                android:minHeight="40dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/new_gender_boy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:checked="true"
+                    android:text="男"/>
+
+                <RadioButton
+                    android:id="@+id/new_gender_girl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="女"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:background="@drawable/line"/>
+
+        <EditText
+            android:id="@+id/pay_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/user_pwd_lock_icon"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/user_pwd_lock_icon"
+            android:hint="支付密码"
+            android:inputType="textPassword"
+            android:minHeight="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="#0099CC"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:background="@drawable/line"/>
+
+        <EditText
+            android:id="@+id/new_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="#fff"
+            android:drawableLeft="@drawable/telphone"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/telphone"
+            android:hint="手机号"
+            android:inputType="phone"
+            android:minHeight="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="#0099CC"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:background="@drawable/line"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/new_btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonstyle"
+                android:minHeight="40dp"
+                android:text="提交"
+                android:textColor="#fff"/>
+
+            <Button
+                android:id="@+id/new_btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/buttonstyle"
+                android:minHeight="40dp"
+                android:text="重置"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

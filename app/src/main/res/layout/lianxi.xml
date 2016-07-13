@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp" 
+        >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/tubiao" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:textSize="20sp"
+                android:text="  嗨周末" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:text="  版本号：V4.1.3" />
+            
+
+        </LinearLayout>
+        
+        
+
+    </LinearLayout>
+    
+       <View
+            android:background="@drawable/line" 
+            android:layout_width="fill_parent" 
+            android:layout_height="1.0px" />
+      <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#fff"
+             android:orientation="vertical" >
+    
+     
+     
+                <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="2dp"
+             android:orientation="horizontal" >
+        
+               <TextView
+                 android:id="@+id/textViewdadianhua"
+                 android:layout_width="wrap_content"
+                 android:layout_height="50dp"
+                 android:layout_weight="0.04"
+                 android:gravity="center_vertical"
+                 android:text="    给我打电话"
+                 android:textSize="16sp" />
+
+              <TextView
+                  android:id="@+id/textViewdadiaa"
+                  android:layout_width="wrap_content"
+                  android:layout_height="50dp"
+                  android:layout_weight="0.00"
+                  android:gravity="center_vertical"
+                  android:text="021-2345 457   "
+                  android:textSize="13sp" />
+
+         </LinearLayout>
+         <View
+            android:background="@drawable/line" 
+            android:layout_width="fill_parent" 
+            android:layout_height="1.0px" />
+         
+               <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="2dp"
+             android:orientation="horizontal" >
+
+                   <TextView
+                       android:id="@+id/texwdadianhua"
+                       android:layout_width="wrap_content"
+                       android:layout_height="50dp"
+                       android:layout_weight="0.04"
+                       android:gravity="center_vertical"
+                       android:text="    给我发微博"
+                       android:textSize="16sp" />
+
+              <TextView
+                  android:id="@+id/textVieadiaa"
+                  android:layout_width="wrap_content"
+                  android:layout_height="50dp"
+                  android:layout_weight="0.00"
+                  android:gravity="center_vertical"
+                  android:text="嗨周末APP   "
+                  android:textSize="13sp" />
+
+         </LinearLayout>
+         <View
+            android:background="@drawable/line" 
+            android:layout_width="fill_parent" 
+            android:layout_height="1.0px" />
+               <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="1dp"
+             android:orientation="horizontal" >
+        
+               <TextView
+                 android:id="@+id/texianhua"
+                 android:layout_width="wrap_content"
+                 android:layout_height="50dp"
+                 android:layout_weight="0.04"
+                 android:gravity="center_vertical"
+                 android:text="    给我发微信"
+                 android:textSize="16sp" />
+
+              <TextView
+                  android:id="@+id/textViea"
+                  android:layout_width="wrap_content"
+                  android:layout_height="50dp"
+                  android:layout_weight="0.00"
+                  android:gravity="center_vertical"
+                  android:text="嗨周末    "
+                  android:textSize="13sp" />
+
+         </LinearLayout>
+         <View
+            android:background="@drawable/line" 
+            android:layout_width="fill_parent" 
+            android:layout_height="1.0px" />
+               <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="2dp"
+             android:orientation="horizontal" >
+        
+               <TextView
+                 android:id="@+id/textViewadianhua"
+                 android:layout_width="wrap_content"
+                 android:layout_height="50dp"
+                 android:layout_weight="0.04"
+                 android:gravity="center_vertical"
+                 android:text="    给我发邮件"
+                 android:textSize="16sp" />
+
+              <TextView
+                  android:id="@+id/extViewdadiaa"
+                  android:layout_width="wrap_content"
+                  android:layout_height="50dp"
+                  android:layout_weight="0.00"
+                  android:gravity="center_vertical"
+                  android:text="hi@xish.com   "
+                  android:textSize="13sp" />
+
+         </LinearLayout>
+         <View
+            android:background="@drawable/line" 
+            android:layout_width="fill_parent" 
+            android:layout_height="1.0px" />
+         
+                
+          </LinearLayout>
+    
+    
+
+</LinearLayout>

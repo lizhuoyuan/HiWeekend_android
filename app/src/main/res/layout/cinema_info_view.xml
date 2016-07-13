@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/APP_Base_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/MarginAndColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/cinema_info_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large Text"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            style="@style/MarginAndColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/cinema_info_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/map_navigation"
+                android:layout_alignTop="@+id/map_navigation"
+                android:layout_toLeftOf="@+id/map_navigation"
+                android:layout_toStartOf="@+id/map_navigation"
+                android:gravity="center_vertical"
+                android:text="Medium Text" />
+
+            <ImageView
+                android:id="@+id/cinema_info_call"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:rotation="-45"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:src="@drawable/phone" />
+
+            <ImageView
+                android:id="@+id/map_navigation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/cinema_info_call"
+                android:src="@drawable/ic_maps_navigation" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/viewpager_container"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/APP_Base_color"
+            android:clipChildren="false"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/cinema_info_movie_pager"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clipChildren="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/APP_Base_color" >
+
+                <TextView
+                    android:id="@+id/movie_info"
+                    style="@style/MarginAndColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/list_item_padding"
+                    android:text="电影名"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll"
+                style="@style/MarginAndColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="2dp" >
+
+                <RadioGroup
+                    android:id="@+id/movie_time"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_group"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:padding="1dp" >
+
+                    <RadioButton
+                        android:id="@+id/today"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_left"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:text="本周六"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@drawable/radio_textcolor" />
+
+                    <RadioButton
+                        android:id="@+id/tomorrow"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_right"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="本周日"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@drawable/radio_textcolor" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.geminno.View.MyListView
+                    android:id="@+id/cinema_info_movie_list"
+                    style="@style/MarginAndColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/APP_Base_color"
+                    android:dividerHeight="2dp" >
+                </com.geminno.View.MyListView>
+
+                <TextView
+                    android:id="@+id/empty_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:hint="没有了" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

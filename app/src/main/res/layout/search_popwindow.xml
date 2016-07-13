@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Block_Color"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/result_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/ActionBar_Color"
+            android:dividerHeight="1dp" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/no_result"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="没有您需要的结果" />
+    </FrameLayout>
+
+</LinearLayout>

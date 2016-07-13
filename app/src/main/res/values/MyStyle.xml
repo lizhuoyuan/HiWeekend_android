@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MarginAndColor">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:background">@color/Block_Color</item>
+    </style>
+
+    <style name="Button_style">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:background">@android:color/holo_red_light</item>
+    </style>
+
+</resources>

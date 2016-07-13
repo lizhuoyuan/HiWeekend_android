@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="geminno.com.hiweek_android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <application
+        android:name="com.geminno.Application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/desktop"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.thinkland.juheapi.openid"
+            android:value="JH7fdd4426b2fce85684e1bf589f46fd65"/>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="S8Wav8mws9Pdo9ForZIxzxxnLcTfAUtr"/>
+        <meta-data
+            android:name="IP"
+            android:value="192.168.191.1"/>
+
+        <activity android:name="com.geminno.hiweek1_0.HuanYingActivity">
+        </activity>
+        <activity android:name="com.geminno.hiweek1_0.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.geminno.hiweek1_0.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name="com.geminno.Activities.movie.MovieActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name="com.geminno.Activities.activity.ZhangZiSshiActivity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name="com.geminno.Activities.activity.RoutePlanActivity">
+        </activity>
+        <activity android:name="com.geminno.Activities.setting.MyselfActivity">
+        </activity>
+        <activity android:name="com.geminno.Activities.setting.MyOrderActivity">
+        </activity>
+        <activity android:name="com.geminno.Activities.setting.PersonActivity">
+        </activity>
+
+        <service
+            android:name="com.geminno.Service.LoadDataFromServer"
+            android:exported="false">
+        </service>
+        <service android:name="com.geminno.Service.InternetService">
+        </service>
+        <service android:name="com.geminno.Service.CollectIsExist">
+        </service>
+        <service android:name="com.geminno.Service.DataService">
+        </service>
+
+        <provider
+            android:name="com.geminno.Provider.MyContentProvider"
+            android:authorities="com.geminno.provider.DATA_BASE_PROVIDER"
+            android:exported="false"/>
+
+        <receiver android:name="com.geminno.Reciver.InternetReciver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.geminno.Activities.activity.AllActivity"
+            android:label="@string/title_activity_all">
+        </activity>
+        <activity
+            android:name="com.geminno.hiweek1_0.ThreeActivity"
+            android:label="@string/title_activity_three">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fff" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_weight="3"
+            android:background="#B0ffffff" >
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="活动/影院名活动/影院名"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvname"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="地址"
+                android:textColor="#787878" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/zishi" />
+
+            <TextView
+                android:id="@+id/tvnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:text="距离/评分"
+                android:textColor="#787878" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.hiweek.huodong.SearchActivity" >
+
+    <TextView
+        android:id="@+id/tvsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/searchlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="#ffffff" >
+    </ListView>
+
+</LinearLayout>

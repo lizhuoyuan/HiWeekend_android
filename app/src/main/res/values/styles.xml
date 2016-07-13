@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_yellow</item>
+    </style>
+
+    <style name="defaultTheme">
+        <item name="btncolor">#fff</item>
+    </style>
+
+    <style name="neightTheme">
+        <item name="btncolor">#000</item>
+    </style>
+
+</resources>

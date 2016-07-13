@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp" >
+                </android.support.v4.view.ViewPager>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/viewpager"
+                    android:background="#77000000"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp" >
+
+                    <TextView
+                        android:id="@+id/tvintro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="我是文本"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/pointLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+          <RelativeLayout
+                android:id="@+id/xiawucha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/xiawucha1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/xiawusha" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/xiawucha1"
+                    android:background="#77000000"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="不做艺术的看客 零基础油画体验"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </RelativeLayout>
+                <RelativeLayout
+                android:id="@+id/xialuote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/xialuote1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/t3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/xialuote1"
+                    android:background="#77000000"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="夏洛特烦恼"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/t1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/t227" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

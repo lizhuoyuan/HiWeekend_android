@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewyijianfankui"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="意见反馈"
+        android:textColor="#FF0000"
+        android:textSize="18sp" />
+    
+
+
+
+    <EditText
+        android:id="@+id/yi_jian_editText1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4 "
+        android:gravity="top"
+        android:background="@drawable/rounded_edittext"
+             android:hint="提意见，留电话，赢积分！
+你的建议,将实我们不断进步，成长的
+见证！我们会不定期地向提出宝贵意见
+的朋 友，赠送给我们的积分！让您享
+受到更多实惠！"
+        android:ems="10"
+        android:textSize="15sp"
+        android:inputType="textMultiLine" >
+        <requestFocus />
+    </EditText>
+
+<Button
+        android:id="@+id/yi_jian_button1"
+        android:layout_width="70dp"
+        android:layout_marginTop="10dp"
+         android:layout_height="0dp"
+         android:textColor="#fff"
+         android:minHeight="30dp"
+         android:background="@drawable/button"
+        android:layout_weight="1 "
+        android:text="提交" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#0099CC"
+            android:text="您的联系方式：" />
+
+        <TextView
+            android:id="@+id/new_telphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0099CC"
+            android:text="18279409136" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+         android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

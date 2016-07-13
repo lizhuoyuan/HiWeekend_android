@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">嗨周末</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Personal_Center">我</string>
+    <string name="Activities">发现</string>
+    <string name="home_page">首页</string>
+    <string name="select_city">选择城市</string>
+    <string name="Unpaid_order">未付款订单</string>
+    <string name="collect">收藏</string>
+    <string name="Seting">设置</string>
+    <string name="exit">退出</string>
+    <string name="action_label_refresh">首页</string>
+    <string name="action_label_search">搜索</string>
+    <string name="action_label_collected">分类活动</string>
+    <string name="action_label_geren">个人中心</string>
+    <string name="title_activity_all">AllActivity</string>
+    <string name="title_activity_three">ThreeActivity</string>
+
+</resources>
