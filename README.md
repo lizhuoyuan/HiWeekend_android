@@ -10,4 +10,4 @@ github上的这个是安卓客户端，后台服务器地址在百度网盘<br>
 ![](http://files.xmgc360.com/%E6%9D%B0%E7%B1%B3%E8%AF%BA2016-04-14-14-02-48c.jpg)
 ![](http://files.xmgc360.com/%E6%9D%B0%E7%B1%B3%E8%AF%BA2016-04-14-14-02-54d.jpg)
 ![](http://files.xmgc360.com/%E6%9D%B0%E7%B1%B3%E8%AF%BA2016-04-14-14-03-08f.jpg)
-![](http://files.xmgc360.com/%E6%9D%B0%E7%B1%B3%E8%AF%BA2016-04-14-14-02-40a.png)
+ 
